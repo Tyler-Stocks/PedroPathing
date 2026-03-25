@@ -68,7 +68,7 @@ public class AbstractBijectiveMap<T, S> implements BijectiveMap<T, S> {
     }
 
     /**
-     * A numeric bijective map that allows for interpolation and finding closest keys/values.
+     * A numeric bijective map that allows for interpolation and finding the closest keys/values.
      * This map supports double keys and values, allowing for numeric operations.
      *
      * @author Havish Sripada - 12808 RevAmped Robotics
@@ -78,7 +78,7 @@ public class AbstractBijectiveMap<T, S> implements BijectiveMap<T, S> {
         private final InterpolatableMap reverseMap;
 
         /**
-         * A map that allows for interpolation and finding closest keys/values.
+         * A map that allows for interpolation and finding the closest keys/values.
          * This map supports double keys and values, allowing for numeric operations.
          */
         public static class InterpolatableMap extends TreeMap<Double, Double> {

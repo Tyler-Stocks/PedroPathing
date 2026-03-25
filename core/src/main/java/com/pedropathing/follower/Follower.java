@@ -446,7 +446,7 @@ public class Follower {
         vectorCalculator.setTeleOpMovementVectors(forward, strafe, turn);
     }
 
-    /** Updates the Mecanum constants */
+    /** Updates the Drivetrain constants */
     public void updateDrivetrain() {
         drivetrain.updateConstants();
     }

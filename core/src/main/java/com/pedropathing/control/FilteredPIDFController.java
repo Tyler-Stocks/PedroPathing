@@ -1,8 +1,8 @@
 package com.pedropathing.control;
 
 /**
- * This is the FilteredPIDFController class. This class handles the running of filtered filtered PIDFs. This
- * behaves very similarly to a regular filtered PIDF controller, but the derivative portion is filtered with
+ * This is the FilteredPIDFController class. This class handles the running of filtered PIDFs. This
+ * behaves very similarly to a regular PIDF controller, but the derivative portion is filtered with
  * a low pass filter to reduce high frequency noise that could affect results.
  *
  * @author Anyi Lin - 10158 Scott's Bots
@@ -25,7 +25,7 @@ public class FilteredPIDFController {
     private long deltaTimeNano;
 
     /**
-     * This creates a new filtered PIDFController from a CustomPIDFCoefficients.
+     * This creates a new filtered PIDFController from a FilteredPIDFCoefficients.
      *
      * @param set the coefficients to use.
      */

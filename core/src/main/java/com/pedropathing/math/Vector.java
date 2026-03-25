@@ -5,7 +5,7 @@ import com.pedropathing.geometry.Pose;
 /**
  * This is the Vector class. This class handles storing information about vectors, which are
  * basically Points but using polar coordinates as the default. The main reason this class exists
- * is because some vector math needs to be done in the Follower, and dot products and cross
+ * is that some vector math needs to be done in the Follower, and dot products and cross
  * products of Points just don't seem right. Also, there are a few more methods in here that make
  * using Vectors a little easier than using a Point in polar coordinates.
  *
@@ -147,7 +147,7 @@ public class Vector {
     }
 
     /**
-     * This returns a Vector that is the sum of the this vector and the other input Vector.
+     * This returns a Vector that is the sum of this vector and the other input Vector.
      *
      * @param other the other Vector.
      * @return returns the sum of the Vectors.

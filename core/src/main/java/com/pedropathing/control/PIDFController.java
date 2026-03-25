@@ -28,7 +28,7 @@ public class PIDFController {
     private long deltaTimeNano;
 
     /**
-     * This creates a new PIDFController from a CustomPIDFCoefficients.
+     * This creates a new PIDFController from a PIDFCoefficientSupplier.
      *
      * @param set the coefficients to use.
      */

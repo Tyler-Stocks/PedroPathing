@@ -222,8 +222,8 @@ public class VectorCalculator {
     /**
      * This returns a Vector in the direction of the robot that contains the heading correction
      * as its magnitude. Positive heading correction turns the robot counter-clockwise, and negative
-     * heading correction values turn the robot clockwise. So basically, Pedro Pathing uses a right-
-     * handed coordinate system.
+     * heading correction values turn the robot clockwise. So basically, Pedro Pathing uses a
+     * right-handed coordinate system.
      * <p>
      * Note: This vector is clamped to be at most 1 in magnitude.
      *
@@ -253,7 +253,7 @@ public class VectorCalculator {
 
     /**
      * This returns a combined Vector in the direction the robot must go to correct both translational
-     * error as well as centripetal force.
+     * error and centripetal force.
      * <p>
      * Note: This vector is clamped to be at most 1 in magnitude.
      *
